@@ -1,0 +1,50 @@
+.page-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  margin: 10rpx 0;
+}
+.page-row {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10rpx;
+  margin: 10rpx 0;
+  padding: 10rpx;
+  box-sizing: border-box;
+  position: relative;
+}
+.biaoti {
+  font-size: 50rpx;
+  font-weight: bold;
+  line-height: 7vh;
+}
+.zuozhe {
+  color: #ccc;
+  margin-left: 40rpx;
+}
+.content {
+  margin-left: 10rpx;
+  line-height: 6vh;
+}
+.img {
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.return {
+  width: 80rpx;
+  height: 80rpx;
+  position: fixed;
+  bottom: 50rpx;
+  right: 30rpx;
+}

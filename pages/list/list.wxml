@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="page-section">
+    <view class="title">记录列表</view>
+    <view class="page-row" wx:for="{{list}}">
+      <text class="biaoti">{{item.newsTitle}}</text>
+      <text class="zuozhe">{{item.newsAuthor}}</text>
+      <view class="content">
+        {{item.newsContent}}
+      </view>
+      <image data-id="{{item._id}}" catchtap="getDelete" class="img" src="/images/delete.png"></image>
+    </view>
+  </view>
+  <image class="return" src="/images/fabu.png" bindtap="getReturn"></image>
+</view>

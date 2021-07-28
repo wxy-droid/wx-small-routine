@@ -1,0 +1,29 @@
+<view class="container">
+  <view class="page-section">
+    <view class="page-title">新闻数据录入</view>
+    <form bindsubmit="getNewsAsycn" bindreset="reset">
+      <view class="row">
+        <text>标题</text>
+        <input type="text" name="newsTitle" placeholder="请输入" />
+      </view>
+      <view class="row">
+        <text>描述</text>
+        <input type="text" name="newsDescribe" placeholder="请输入" />
+      </view>
+      <view class="row">
+        <text>作者</text>
+        <input type="text" name="newsAuthor" placeholder="请输入" />
+      </view>
+      <view class="row">
+        <text>来源</text>
+        <input type="text" name="newsOrigin" placeholder="请输入" />
+      </view>
+      <view class="text-area">
+        <view>新闻内容</view>
+        <textarea name="newsContent"></textarea>
+      </view>
+      <button type="primary" form-type="submit">提交</button>
+      <button type="warn" form-type="reset">重置</button>
+    </form>
+  </view>
+</view>
